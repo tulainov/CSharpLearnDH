@@ -1,0 +1,107 @@
+﻿# Ignore build output
+bin/
+obj/
+
+# Rider specific files
+.idea/
+.idea_modules/
+.idea_modules.xml
+.idea_workspace.xml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider-specific caches/metadata
+.idea/
+
+# Rider project files
+*.sln.iml
+*.csproj.iml
+
+# Other files and directories to ignore
+# Crash reports
+crash-reports/
+crash-reports/.meta
+
+# User specific files and folders
+.vscode/
+.vscode/settings.json
+
+# Rider backup files
+**/*_backup/
+**/*_backup/*
+
+# Rider logs
+**/logs/
+**/logs/*
+
+# Rider caches
+**/caches/
+**/caches/*
+
+# Compiled DLLs
+*.dll
+
+# Compiled PDBs
+*.pdb
+
+# Compiled EXEs
+*.exe
+
+# NCrunch
+_NCrunch_*
+.*crunch_*
+
+# User-specific files
+*.rsuser
+
+# Rider settings
+.idea/*
+
+# Resharper settings
+_ReSharper.Caches
+
+# Rider settings
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+
+# Azure Pipelines 
+azure-pipelines.yml
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Microsoft Office temporary files
+~$*
+~*.tmp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider specific files
+.idea/
+*.sln.iml
+*.csproj.iml
+
+# Rider IDE project files
+*.iml
+
+# User-specific Rider configurations
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/shelf/*
+.idea/**/vcs.xml
+
+# JetBrains Rider specific files
+.idea/
