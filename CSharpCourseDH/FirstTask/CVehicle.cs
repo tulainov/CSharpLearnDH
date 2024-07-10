@@ -7,6 +7,8 @@
 
 public class CVehicle
 {
+    
+    #region private fields
     private string _id;
     private string _manufacturer;
     private string _model;
@@ -15,6 +17,9 @@ public class CVehicle
     private bool _availability;
     private double _rentalCostPerDay;
 
+    #endregion
+    
+    #region Constructor
     public CVehicle(string id, string manufacturer, string model, int year,
         double mileage, bool availability, double rentalCostPerDay)
     {
@@ -26,7 +31,9 @@ public class CVehicle
         _availability = availability;
         _rentalCostPerDay = rentalCostPerDay;
     }
-
+    #endregion
+    
+    #region Methods
     public double CalculateRentalCost(int days)
     {
         return _rentalCostPerDay * days;
@@ -42,7 +49,10 @@ public class CVehicle
                $"Availability: {_availability}\n" +
                $"Cost per day: {_rentalCostPerDay}";
     }
+    
+    #endregion
 
+    #region Properties
     public string Id
     {
         get => _id;
@@ -84,4 +94,6 @@ public class CVehicle
         get => _rentalCostPerDay;
         set => _rentalCostPerDay = value;
     }
+    
+    #endregion
 }

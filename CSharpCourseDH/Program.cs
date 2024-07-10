@@ -4,8 +4,10 @@ namespace CSharpCourseDH;
 
 public class Program()
 {
+    
+    #region Initializing of CVehicle
 
-    public CVehicle _ford = new CVehicle("2141AEC341", "Ford",
+    private CVehicle _ford = new CVehicle("2141AEC341", "Ford",
         "Mustang", 1959, 800_124, true, 239.99);
 
     private CVehicle _bmw = new CVehicle("997319D", "BMW", "M5", 2012,
@@ -20,9 +22,11 @@ public class Program()
     private CVehicle _mercedes = new CVehicle("14215FEA", "Mercedes", "CClass",
         2020, 70_431, false, 199.99);
 
-    private List<CVehicle> _autos;
+    private List<CVehicle> _autos = [];
 
-    public void InitProgram()
+    #endregion
+    
+    private void InitProgram()
     {
         _autos = new List<CVehicle> { _ford, _bmw, _audi, _vw, _mercedes };
 
