@@ -8,7 +8,10 @@
 public class CVehicle
 {
     
+    // ID could start at 0 and increment with every new object automatically
+    
     #region private fields
+    
     private string _id;
     private string _manufacturer;
     private string _model;

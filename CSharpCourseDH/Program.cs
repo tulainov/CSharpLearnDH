@@ -37,14 +37,12 @@ public class Program()
         }
     }
 
-    public static void Main(String[] args)
+    public static void Main(string[] args)
     {
-        Program program = new Program();
+        var program = new Program();
 
         Console.WriteLine("The list of vehicles: \n");
         program.InitProgram();
+        
     }
-
-    
 }
-
