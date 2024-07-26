@@ -1,4 +1,4 @@
-﻿namespace ClassesCode.FirstClass;
+﻿namespace ClassesCode.ClassesTasks.Lotto;
 
 /// <summary>
 /// Create a class that creates 6 Lotto numbers in the List, sorts them.
@@ -7,8 +7,9 @@
 /// In Main method call Run method 10x with Thread.Sleep(10) after each.
 ///
 ///
-/// I can also use here instead of List - HashTable, HashMap. It takes only unique numbers
-/// and throws an exception if number duplicates. So many things to learn!
+/// I can also use here instead of List - HashTable, HashMap (which is Dictionary in C#.
+/// It takes only unique numbers and throws an exception if number duplicates.
+/// So many things to learn!
 /// </summary>
 
 

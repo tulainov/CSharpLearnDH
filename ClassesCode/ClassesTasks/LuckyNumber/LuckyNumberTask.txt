@@ -1,0 +1,25 @@
+﻿Erstellen Sie ein Programm zum Berechnen einer persönlichen Glückszahl (zwischen 1 und 100), indem Sie:
+• den Vor- und Nachnamen als Befehlszeilenargumente einlesen,
+
+        with Console.ReadLine. Method "UserName"
+    
+• den ersten Buchstaben des Vornamens sowie den letzten Buchstaben des Nachnamens ermitteln (beide in
+Großschreibung),
+
+        with .split method. Method "SplitUserName" -> return chars
+
+• die Nummern der beiden Buchstaben im Unicode-Zeichensatz bestimmen,
+
+        the two chars from SplitUserName. 
+        with Convert.ToInt32(). return the sum of both
+
+• die beiden Buchstabennummern addieren und die Summe als Initialisierungswert für den
+Pseudozufallszahlengenerator aus der Klasse Random verwenden.
+
+        easy. Simply in 'Run()'.        
+
+Beenden Sie Ihr Programm mit einer Fehlermeldung, wenn weniger als zwei Befehlszeilenargumente
+übergeben wurden.   
+
+        with 'if (args < 2) throw new ...'
+

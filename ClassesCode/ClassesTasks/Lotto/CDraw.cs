@@ -1,6 +1,6 @@
-﻿using static ClassesCode.FirstClass.Lotto;
+﻿using static ClassesCode.ClassesTasks.Lotto.Lotto;
 
-namespace ClassesCode.FirstClass;
+namespace ClassesCode.ClassesTasks.Lotto;
 
 public class CDraw
 {
