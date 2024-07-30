@@ -31,9 +31,9 @@ public class LuckyNumber
 
         SplitName = Name.Split(' ');
 
-        FirstLetter = Convert.ToChar(SplitName[0][0]);
-        LastLetter = Convert.ToChar(SplitName[SplitName.Length - 1]
-            [SplitName[SplitName.Length - 1].Length - 1]);
+        FirstLetter = SplitName[0][0];
+        LastLetter = SplitName[SplitName.Length - 1]
+            [SplitName[SplitName.Length - 1].Length - 1];
     }
 
     private int GetCharSum()
@@ -52,9 +52,8 @@ public class LuckyNumber
         SplitUserName();
 
         Random random = new Random(GetCharSum());
-        int luckyNumber = random.Next();
         
-        Console.WriteLine($"Your lucky number is {luckyNumber}\nCongratulations!");
+        Console.WriteLine($"Your lucky number is {random.Next()}\nCongratulations!");
     }
     
 }
